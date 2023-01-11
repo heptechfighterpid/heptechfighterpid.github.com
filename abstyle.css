@@ -1,0 +1,50 @@
+body{
+  background:url("bg.png");
+}
+.cn{
+  background-color: white;
+  border-radius: 7px;
+  width: 96%;
+  height: 700px;
+}
+
+.footer{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 70px;
+  display: flex;
+  background-color: black;
+  text-align: center;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.hepfp{
+  width: 220px;
+  border-radius: 7px;
+  height: 200px;
+}
+p{
+  text-align: left;
+  margin: 5px;
+}
+a{
+  text-decoration: none;
+  color: blue;
+  font-style: italic;
+}
+li{
+  text-align: left;
+  margin: 5px;
+}
+h{
+  text-align: center;
+  color: blue;
+  text-decoration: underline;
+  font-style: italic;
+}
+c{
+  font-weight: bold;
+}
