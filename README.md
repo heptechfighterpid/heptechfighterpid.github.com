@@ -1,1 +1,1 @@
-# heptechfighterpid.github.com/index.html
+# heptechfighterpid.github.io/index.html
