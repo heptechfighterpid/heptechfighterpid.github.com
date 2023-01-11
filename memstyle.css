@@ -1,0 +1,42 @@
+body{
+  background:url("bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.cn{
+  background-color: white;
+  width: 100%;
+  height: 700px;
+  border-radius: 7px;
+  
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+}
+table{
+  border-collapse: collapse;
+  width: 94%;
+}
+td{
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+h{
+  text-decoration: underline;
+  color: blue;
+}
+a{
+  text-decoration: none;
+  color: red;
+}
