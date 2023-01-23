@@ -40,12 +40,9 @@
 
       <input type="text" name="occupation" class="occu" placeholder="Type Your Occupation"><br><br>
       
-      <input type="file" accept="image/png"><br>
+      <input type="file" accept="image/*"><br>
 <img src="" alt="" style="width: 40px; height: 40px;">
-      <input type="checkbox" name="checkbox" class="cb" required>I Accept Heptech Fighter Pid Policy<br><br>
-
-      <button type="submit" class="sub">Submit</button>
-    <script>
+<script>
 let url = "Api_Endpoint_Url";
     let file = document.querySelector("input");
     let img = document.querySelector("img");
@@ -72,6 +69,10 @@ let url = "Api_Endpoint_Url";
         fr.readAsDataURL(file.files[0])
     })
 </script>
+      <input type="checkbox" name="checkbox" class="cb" required>I Accept Heptech Fighter Pid Policy<br><br>
+
+      <button type="submit" class="sub">Submit</button>
+    
 </form>
 
     </div>
