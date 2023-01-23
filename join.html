@@ -39,36 +39,6 @@
       <input type="number" name="number" class="number" placeholder="Type Your Number" required><br><br>
 
       <input type="text" name="occupation" class="occu" placeholder="Type Your Occupation"><br><br>
-      <input type="file" accept="image/png">
-<img src="" alt="">
-<script>
-  let url = "Api_Endpoint_Url";
-    let file = document.querySelector("input");
-    let img = document.querySelector("img");
-    file.addEventListener('change',()=>{
-        let fr = new FileReader();
-        fr.addEventListener('loadend',()=>{
-            let res = fr.result;
-            img.src=res;
-            let spt = res.split("base64,")[1];
-            // console.log(spt);
-            let obj = {
-                base64:spt,
-                type:file.files[0].type,
-                name:file.files[0].name
-            }
-            fetch(url,{
-                method:"POST",
-                body:JSON.stringify(obj)
-            })
-            .then(r=>r.text())
-            .then(data=>console.log(data))
- 
-        })
-        fr.readAsDataURL(file.files[0])
-    })
-</script>
-      
 
       <input type="checkbox" name="checkbox" class="cb" required>I Accept Heptech Fighter Pid Policy<br><br>
 
