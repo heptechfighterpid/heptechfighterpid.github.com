@@ -17,7 +17,16 @@
   <title>Members</title>
 </head>
 
-<body>
+<body onkeydown="recognise(event)">
+<script>
+function recognise(event) {
+var key = event.key;
+
+if(key =="*"){
+window.loxation.reload();
+}
+}
+</script>
   <center>
 <div class="cn">
  <table>
