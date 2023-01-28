@@ -16,7 +16,16 @@
   <title>About</title>
 </head>
 
-<body>
+<body onkeydown="recognise(event)">
+<script>
+function recognise(event){
+var key = event.key;
+
+if(key =="*"){
+window.location.reload();
+}
+}
+</script>
   <center>
 <div class="cn"><br>
 <img src="Hepfp.jpg" class="hepfp">
