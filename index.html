@@ -23,7 +23,16 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body onkeydown="shortcut(event)">
+<script>
+function shortcut(event) {
+var key = event.key;
+
+if(key =="*") {
+window.location.reload();
+}
+}
+</script>
  <div class="tp">
    <a href="index.html"><i class="fa-solid fa-house"></i></a>
    <a href="member.html"><i class="fa-solid fa-user"></i></a>
