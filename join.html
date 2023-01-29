@@ -18,6 +18,8 @@
 
 <body onkeydown="recognise"(event)">
 <script>
+const audio = new Audio();
+audio.src = ("./click.wav");
 function recognise(event) {
 var key = event.key;
 
@@ -52,7 +54,7 @@ window.location.reload();
 
       <input type="checkbox" name="checkbox" class="cb" required>I Accept Heptech Fighter Pid Policy<br><br>
 
-      <button type="submit" class="sub">Submit</button>
+      <button type="submit" class="sub" onclick="audio.play();">Submit</button>
     
 </form>
 
