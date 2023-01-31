@@ -45,22 +45,6 @@ function recognise(event) {
     document.getElementById("BatteryText").innerHTML = "Your Battery Level:";
   }
   
-  if(key ==":"){
-    video.play();
-  }
-  
-  if(key ==";"){
-    video.pause();
-  }
-  
-  if(key =="4"){
-    video.muted=true;
-  }
-  
-  if(key =="9"){
-    video.muted=false;
-  }
-  
   if(key =="%"){
     alert('Youtube - Heptech Fighter Pid');
   }
