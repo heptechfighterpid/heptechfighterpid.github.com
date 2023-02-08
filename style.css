@@ -52,3 +52,6 @@ a {
   background-color: red;
   color: white;
 }
+#google_translate_element{
+  visibility: hidden;
+}
